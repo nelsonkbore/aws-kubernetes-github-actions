@@ -50,7 +50,7 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
-        ECR_REGISTRY: public.ecr.aws/m8q1o7w2
+        ECR_REGISTRY: 071434136794.dkr.ecr.ca-central-1.amazonaws.com
       run: |
         cd site
         docker image build \
